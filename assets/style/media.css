@@ -1,0 +1,87 @@
+/* Файл который будет хранить адаптацию */
+/* 280px */
+
+/* media request */
+
+/* в круглых скобках макс расширение экрана */
+
+@media (max-width:1399.99px) {}
+
+@media (max-width:1199.99px) {}
+
+@media (max-width:991.99px) {
+    .nav__logo {
+        font-size: 32px;
+    }
+
+    .nav__list-link {
+        font-size: 20px;
+        margin-left: 60px;
+    }
+
+    .header__content {
+        min-height: 625px;
+    }
+
+    .header__content-title {
+        font-size: 30px;
+        font-weight: 600px;
+    }
+
+    .header__content-btn {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    .aboute__me {
+        flex-direction: column;
+    }
+    .aboute__me-content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:767.99px) {
+    .nav {
+        position: relative;
+    }
+
+    .nav__content:hover .nav__list {
+        left: 0;
+    }
+
+    .nav__list {
+        position: absolute;
+        flex-direction: column;
+        background-color: black;
+        top: 100%;
+        padding: 15px;
+        gap: 10px;
+        left: -100%;
+        transition: .5s;
+    }
+
+    .nav__list-link {
+        margin-left: 0;
+    }
+
+    .header__content {
+        min-height: 550px;
+    }
+
+    .header__content-title {
+        font-size: 20px;
+        font-weight: 300px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .header__content-btn {
+        font-size: 18px;
+    }
+    .portfolio__content{
+        justify-content: center;
+    }
+}
+
+@media (max-width:575.99px) {}
